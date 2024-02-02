@@ -1,0 +1,26 @@
+h1 {color:white; 
+    font-family: sans-serif;
+}
+body {background-color: #fca6c9;
+ text-align: center;
+ margin: 50px 475px;
+}
+ol {
+    font-weight: bolder;
+    text-align: left;
+    font-family: sans-serif;
+}
+blockquote {
+    color: white;
+}
+img#logo {
+    width: 200px;
+}
+h2 {
+    margin: 3 auto;
+}
+
+
+blockquote {
+    margin: center;
+}
