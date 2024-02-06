@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    border: 25px groove peru;
+    padding: 25px;
+    background-color: cornflowerblue;
+    margin: 100px auto;
+    width: 400px;
+    text-align: center;
+    border-radius: 25%;
+}
+
+img {
+    display:block;
+    margin: 20px auto;
+    width: 400px;
+    border: 10px groove slateblue;
+    border-radius: 50%;
+}
