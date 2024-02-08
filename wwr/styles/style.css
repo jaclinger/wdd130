@@ -1,14 +1,23 @@
+* {
+    font-size: 22px;
+    font-family: "Book Antiqua", Garamond, "Lucidia Bright"
+}
+
 div.content {
-    width: 1600px;
+    max-width:1600px;
     margin: 0 auto;
 }
 
 div {
-    width: 1600px;
+    max-width: 1600px;
 }
 
 body {
     background-color: #fcfbfb;
+    font-family: "Book Antiqua", "Lucidia Bright", Garamond;
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
@@ -23,12 +32,17 @@ nav a:hover {
 nav a {
     color: rgb(212, 26, 26);
     text-decoration: none;
+    padding: 35px;
 }
 
 .book, .join {
     background-color: aliceblue;
     color: rgb(212, 26, 26);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -51,6 +65,7 @@ nav a {
 
 nav a {
     text-align: center;
+    padding: 35px;
 }
 
 .button-box {
@@ -67,12 +82,16 @@ main section {
 
 .msg {
     color: rgb(212, 26, 26);
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: white;
     color: rgb(212, 26, 26);
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -88,19 +107,33 @@ footer a:hover {
     color: brown;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .home-title {
     color: rgb(212, 26, 26);
+    font-size: 2em;
+    font-family: Garamond, "Lucidia Bright", "Book Antiqua";
+    margin-top: 10px;
 }
 h4 {
     color: rgb(212, 26, 26);
 }
 
 .msg h2 {
-    color: rgb(212, 26, 26);
+    color: rgb(212, 26, 26);font-family: Garamond, "Lucidia Bright", "Book Antiqua"
+    
+}
+
+h2 {
+    margin: 0px;
 }
 
 .msg p {
     color: rgb(212, 26, 26);
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .logo {
@@ -109,8 +142,25 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }

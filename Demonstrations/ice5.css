@@ -1,0 +1,37 @@
+#circle {
+    text-align: center;
+    background-color: gray;
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 800px;
+}
+
+#top {
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 800px;
+    display: block;
+    
+}
+
+#persun {
+    margin: 10px auto;
+    width: 175px;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+#desk {
+    margin: 10px auto;
+    width: 175px;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+#imagge {
+    margin: 10px auto;
+    width: 175px;
+    border: 10px solid black;
+    border-radius: 50%;
+    align-content: center;
+}
