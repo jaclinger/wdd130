@@ -25,7 +25,7 @@ header {
 }
 
 nav a:hover {
-    background-color: black;
+    background-color: whitesmoke;
     color: rgb(212, 26, 26)
 }
 
@@ -36,7 +36,7 @@ nav a {
 }
 
 .book, .join {
-    background-color: aliceblue;
+    background-color: rgb(133, 165, 194);
     color: rgb(212, 26, 26);
     text-decoration: none;
     font-size: 18px;
@@ -46,7 +46,7 @@ nav a {
 }
 
 .book:hover, .join:hover {
-    background-color: white;
+    background-color: rgb(187, 194, 180);
     color: rgb(212, 26, 26);
 }
 

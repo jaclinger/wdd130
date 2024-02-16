@@ -1,21 +1,32 @@
-* {
-    box-sizing: border-box;
+
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
 }
 
-p {
-    border: 25px groove peru;
-    padding: 25px;
-    background-color: cornflowerblue;
-    margin: 100px auto;
-    width: 400px;
-    text-align: center;
-    border-radius: 25%;
+#content section{
+    width: 100%;
+    height: 100px;
 }
 
-img {
-    display:block;
-    margin: 20px auto;
-    width: 400px;
-    border: 10px groove slateblue;
-    border-radius: 50%;
+.blue {
+    background-color: blue;
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+.green {
+    background-color: green;
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+.yellow {
+    background-color: yellow;
+
+}
+.red {
+    background-color: red;
+    grid-row: 2/3;
+    grid-column: 2/3;
 }
