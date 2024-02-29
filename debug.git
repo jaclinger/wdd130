@@ -1,0 +1,4 @@
+rm -f .git/objects/cb/823b62cf9dc03dd48661a8a5e6fbca848b8eac
+git fsck --full --no-dangling
+git prune
+git gc
