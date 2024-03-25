@@ -2,16 +2,17 @@
     margin-top: 20px;
     margin-right: 25px;
     margin-left: 25px;
+    font-family: Garamond, "Lucidia Bright";
 }
 
 #logo {
     max-width: 200px;
     margin: 0 auto;
 }
+ a {
+    text-decoration: none;
 
-a:hover {
-    color: #396E94;
-}
+ }
 
 #header {
     text-align: center;
@@ -20,6 +21,7 @@ a:hover {
     grid-template-rows: 2fr;
     border: solid black;
     background-color: #A59DE8;
+    font-family: 'Book Antiqua';
 
 }
 
@@ -45,52 +47,92 @@ h2 {
 }
 
 
-.intro {
+#intro {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-row: 1fr 20px;
     gap: 20px; /* Adjust the gap between items */
+    text-align: center;
   }
   
   #link-img {
     width: 350px;
     height: 400px;
     border: solid black;
-    float: left; /* Float the first image to the left */
+    grid-column: 4/5;
+    grid-row: 1/2;
+    box-shadow: 3px 3px 5px;
 }
+
 
 #link-img2 {
     width: 350px;
     height: 400px;
     border: solid black;
-    float: left; /* Float the second image to the left */
-    margin-left: 0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    box-shadow: 3px 3px 5px;
+
 }
 
-.button-box {
-    clear: both; /* Clear the floats to move the button-box div below the images */
-    text-align: center; /* Center the content inside button-box */
+.button-box { 
+    text-align: center; 
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
 }
 
-.book,
-.moose {
+.book {
     padding: 15px;
     border: solid black;
     width: 150px;
     text-align: center;
-    color: black;
+    color: white;
     text-decoration: none;
     margin-top: 20px;
-    margin-bottom: 50px;
-    display: inline-block; /* Display buttons inline-block */
+    margin-bottom: 100px;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: #396E94;
+    font-size: larger;
+
 }
 
 
-  
+.moose {
+    padding: 15px;
+    border: solid black;
+    width: 175px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    background-color: #396E94;
+    font-size: larger;
+    
+}
+
+.moose:hover {
+    color: black;
+}
+
+.book:hover {
+    color: black;
+}
 
 footer {
     background-color: white;
     padding: 15px 20px;
-    margin-top: 150px; 
+    margin-top: 50px; 
     margin-left: 0;
     margin-right: 0;
     text-align: center;
@@ -104,6 +146,10 @@ footer {
 #tips {
     text-align: center;
     text-decoration: none;
+    text-transform: capitalize;
+    font-size: x-large;
+    margin-bottom: 0;
+    margin-top: 25px;
 }
 
 a:hover {
