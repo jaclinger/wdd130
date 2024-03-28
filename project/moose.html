@@ -4,18 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
 </head>
 <body>
-    <div id="header"><img src="images/logo.jpeg" alt="Cuddly Companions Collective"><a class='home' href="home.html">Home</a>
-        <h1>Moose</h1></div>
-    <div id="below"><h2>Moose is a chocolate labrador, and he loves attention! He is very affectionate and has boundless energy!
-        As a lab, he is good with other dogs, and he loves to play fetch and get scratched behind the ears.
-        He is seeking a new home with owners that can give him plenty of love and attention.
-        Moose would love a new home with owners that will take him on walks and play with him often</h2></div>
-    <div class='button-box2'>
-    <img id="link-img" src="images/rsz_moosedog.jpg" alt="Dog looking at screen">
-    <img id="link-img" src="images/moose_nose.jpg" alt="Dog licking it's nose">
-    <img id="link-img" src="images/moose_snow.jpg" alt="Dog playing in the snow">
+    <div id="header"><img id='logo' src="images/logo.jpeg" alt="Cuddly Companions Collective">
+        <a class='home' href="home.html">Home</a>
+        <h1>Meet Moose!</h1></div>
+        <div id="below"><h2>Moose is a chocolate labrador, and he loves attention! He is very affectionate and has boundless energy!
+          As a lab, he is good with other dogs, and he loves to play fetch and get scratched behind the ears.
+          He is seeking a new home with owners that can give him plenty of love and attention.
+          Moose would love a new home with owners that will take him on walks and play with him often</h2></div>
+        
+        <div class="slideshow-container">
+          <div class="slide active">
+            <img id="slideimg" src="images/rsz_1rsz_moose.jpg" alt="Image 1">
+          </div>
+          <div class="slide">
+            <img id="slideimg" src="images/mooselick.jpg" alt="Image 2">
+          </div>
+          <div class="slide">
+            <img id="slideimg" src="images/moose_in_snow.jpg" alt="Image 3">
+          </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+          </div>
+        <script src="script.js"></script>
+
+
+            </div>
+
+
     </div>
     <div id="tips"><h3><a href="tips.html">Tips and tricks for pet owners</a></h3></div>
     
