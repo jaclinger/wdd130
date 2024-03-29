@@ -179,7 +179,7 @@ a:hover {
   cursor: pointer;
 }
 
-#slideimg {
+#slideimg, #slideimg1, #slideimg2 {
   max-height: 400px;
   border: 2px black;
   box-sizing: border-box;
