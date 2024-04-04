@@ -4,25 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
 </head>
 <body>
-    <div id="header"><img src="images/logo.jpeg" alt="Cuddly Companions Collective">
+    <div id="header">
+      <a href="home.html"><img id='logo' src="images/logo.jpeg"  alt="Cuddly Companions Collective"></a>
         <a class='home' href="home.html">Home</a>
-        <h1>Sushi</h1></div>
+        <h1>Meet Sushi</h1></div>
     <div id="below"><h2>Sushi is our fun loving domestic short hair cat, with a brown tabby fur pattern.
         Sushi loves treats and cuddles and is always trying to playfully get noticed.
         Sushi is looking for a new home where they can live inside and keep warm and safe.
         She needs a laid-back environment where she can be pampered and loved.</h2></div>
-    <div class='button-box2'>
-    <img id="link-img" src="images/rsz_catsushi.jpg" alt="Cat sitting down">
-    <img id="link-img" src="images/laying_sushi.jpg" alt="Cat laying across bed">
-    <img id="link-img" src="images/.jpg" alt="El Cat">
-    </div>
+        <div class="slideshow-container">
+            <div class="slide active">
+              <img id="slideimg" src="images/sushi.looking.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+              <img id="slideimg2" src="images/laying_sushi.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+              <img id="slideimg1" src="images/sushi.plain.jpg" alt="Image 3">
+            </div>
+              <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+              <a class="next" onclick="changeSlide(1)">&#10095;</a>
+            </div>
+          <script src="script.js"></script>
     <div id="tips"><h3><a href="tips.html">Tips and tricks for pet owners</a></h3></div>
     
     <footer>
         <p>Follow us on social media &copy; 2024 - Joseph Clinger</p>
-        <p><a href="siteplan.html">Site Plan</a></p>
+        <p><a href="siteplan.html" target="_blank">Site Plan</a></p>
         <p><a href="contactus.html">Contact Us</a></p>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
