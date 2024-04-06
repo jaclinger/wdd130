@@ -120,9 +120,6 @@ h2 {
     
 }
 
-#logo:hover{
-  filter: blur(100%);
-}
 
 .moose:hover {
     color: black;
